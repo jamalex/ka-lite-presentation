@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation",
+            "file_exclude_patterns": [
+                "presentation.sublime*"
+            ]
+		}
+	]
+}

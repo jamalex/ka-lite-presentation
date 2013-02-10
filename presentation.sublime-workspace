@@ -1,0 +1,1390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ms",
+				"showMessage"
+			],
+			[
+				"pro",
+				"propose-options"
+			],
+			[
+				"save",
+				"saveGameData"
+			],
+			[
+				"upda",
+				"updateObj"
+			],
+			[
+				"sess",
+				"sessionid"
+			],
+			[
+				"han",
+				"hangout-link"
+			],
+			[
+				"exer",
+				"exerciseList"
+			],
+			[
+				"dis",
+				"displayName"
+			],
+			[
+				"playerA",
+				"playerApiId"
+			],
+			[
+				"subti",
+				"subtitleStateChanged"
+			],
+			[
+				"attr",
+				"attribution-link"
+			],
+			[
+				"EmbedSha",
+				"EmbedShareOptionsView"
+			],
+			[
+				"exerci",
+				"exercise_attempts"
+			],
+			[
+				"transcri",
+				"transcriptEnabled"
+			],
+			[
+				"VideoPla",
+				"VideoPlayerState"
+			],
+			[
+				"callback",
+				"callbackOnPlay"
+			],
+			[
+				"playerSta",
+				"playerStateChange"
+			],
+			[
+				"video",
+				"videoView"
+			],
+			[
+				"ifr",
+				"iframeId"
+			],
+			[
+				"play",
+				"playerApiId"
+			],
+			[
+				"pla",
+				"playerType"
+			],
+			[
+				"Youtu",
+				"YoutubeEmbeddedPlayerView"
+			],
+			[
+				"api",
+				"playerApiId"
+			],
+			[
+				"you",
+				"youtubeId"
+			],
+			[
+				"Video",
+				"VideoPlayerState"
+			],
+			[
+				"playe",
+				"playerID"
+			],
+			[
+				"Vide",
+				"VideoCollection"
+			],
+			[
+				"youtub",
+				"youtube_id"
+			],
+			[
+				"stats",
+				"statsView"
+			],
+			[
+				"obj",
+				"obj2"
+			],
+			[
+				"pass",
+				"check_password"
+			],
+			[
+				"check",
+				"check_password"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "run.sh",
+			"settings":
+			{
+				"buffer_size": 91,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "edit.sh",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/presentation.less",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "builder4impress/js/builder.js",
+			"settings":
+			{
+				"buffer_size": 8048,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/impress.css",
+			"settings":
+			{
+				"buffer_size": 14251,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 172.0,
+		"selected_items":
+		[
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"gui",
+				"Git: Gui"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Toggle Trailing Spaces"
+			],
+			[
+				"tail",
+				"Trailing Spaces: Toggle Trailing Spaces"
+			],
+			[
+				"spac",
+				"Trailing Spaces: Toggle Trailing Spaces"
+			],
+			[
+				"space",
+				"Trailing Spaces: Toggle Trailing Spaces"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"ttrai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"prett",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"text",
+				"TextFormatting"
+			],
+			[
+				"forma",
+				"TextFormatting"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package co",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Diff Tool"
+			],
+			[
+				"push",
+				"Git: Push"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 165.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/css/presentation.less",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/js/less-1.3.3.min.js",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/presentation.html",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/css/impress-demo.css",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/builder4impress/style.css",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/builder4impress/js/FileSaver.min.js",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/README.md",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/scale.png",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/presentation.sublime-project",
+		"/home/jamalex/Dropbox/KA",
+		"/home/jamalex/Lite/KA",
+		"/home/jamalex/Presentation/presentation",
+		"/home/jamalex/khan/jamiealexandre/video_models.py",
+		"/home/jamalex/khan/jamiealexandre/secrets.py",
+		"/home/jamalex/khan/david-is-a-good-person/server.coffee",
+		"/home/jamalex/khan/jamiealexandre/images/798white_798grey.png",
+		"/home/jamalex/khan/david-is-a-good-person/node_modules/socket.io/lib/stores/memory.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/shared-package/analytics.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/shared-package/video-addons.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/discussion-package/discussion.js",
+		"/home/jamalex/khan/jamiealexandre/khan-exercises/utils/hints.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/exercises-package/exercises.js",
+		"/home/jamalex/khan/jamiealexandre/templates/exercises/assessment_template.html",
+		"/home/jamalex/khan/jamiealexandre/javascript/exercises-package/exercise-header.handlebars",
+		"/home/jamalex/khan/jamiealexandre/templates/exercises/exercise_template_old.html",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/shared-package/topics.js",
+		"/home/jamalex/khan/jamiealexandre/topics.py",
+		"/home/jamalex/khan/jamiealexandre/javascript/discussion-package/discussion.js",
+		"/home/jamalex/khan/jamiealexandre/javascript/exercises-package/problem-template.handlebars",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/exercises-package/stacks.js",
+		"/home/jamalex/khan/jamiealexandre/khan-exercises/khan-exercise.js",
+		"/home/jamalex/khan/jamiealexandre/javascript/exercises-package/exercises.js",
+		"/home/jamalex/khan/jamiealexandre/js_css_packages/packages.py",
+		"/home/jamalex/khan/epiclesson/static/index.html",
+		"/home/jamalex/khan/jamiealexandre/javascript/shared-package/packageloader.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/video-package/video-backbone.js",
+		"/home/jamalex/khan/jamiealexandre/exercises/exercise_util.py",
+		"/home/jamalex/khan/jamiealexandre/api/v1.py",
+		"/home/jamalex/khan/jamiealexandre/templates/viewexercises.html",
+		"/home/jamalex/khan/jamiealexandre/templates/goals/creategoal.html",
+		"/home/jamalex/khan/jamiealexandre/templates/macros/exercises.html",
+		"/home/jamalex/khan/jamiealexandre/stylesheets/video-package/video-layout.less",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/video-extra-link-bar.handlebars",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/video-backbone.js",
+		"/home/jamalex/khan/jamiealexandre/main.py",
+		"/home/jamalex/khan/jamiealexandre/javascript/shared-package/video-addons.js",
+		"/home/jamalex/khan/jamiealexandre/javascript/shared-package/youtube-iframe-player.handlebars",
+		"/home/jamalex/khan/jamiealexandre/request_handler.py",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/discussion-package/low-quality-notice.js",
+		"/home/jamalex/khan/jamiealexandre/templates/embedvideo.html",
+		"/home/jamalex/khan/jamiealexandre/javascript/exercises-package/current-card.handlebars",
+		"/home/jamalex/khan/ka-lite/exercises/exercises-packed/absolute_value.html",
+		"/home/jamalex/khan/ka-lite/exercises/exercises/absolute_value.html",
+		"/home/jamalex/khan/jamiealexandre/javascript/tutorial-package/tutorial-nav.js",
+		"/home/jamalex/khan/jamiealexandre/exercise_models.py",
+		"/home/jamalex/khan/tutorials-dynamic-packages/Makefile",
+		"/home/jamalex/khan/jamiealexandre/Makefile",
+		"/home/jamalex/khan/jamiealexandre/user_models.py",
+		"/home/jamalex/thisCourse/thiscourse/settings.py",
+		"/home/jamalex/khan/tutorials-dynamic-packages/secrets.py",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/share-embed-code.handlebars",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/share-embed-options.handlebars",
+		"/home/jamalex/khan/jamiealexandre/robots.py",
+		"/home/jamalex/khan/jamiealexandre/deploy/compress.py",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/youtube-embedded-player.handlebars",
+		"/home/jamalex/khan/jamiealexandre/templates/exercises/exercise_template.html",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/video-wrapper.handlebars",
+		"/home/jamalex/khan/stable/stylesheets/video-package/embedded-video-options.less",
+		"/home/jamalex/khan/jamiealexandre/stylesheets/video-package/video.less",
+		"/home/jamalex/khan/stable/templates/embedvideo.html",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/video-wrapper.handlebars.json",
+		"/home/jamalex/Dropbox/Notes/iodine (TCP-over-DNS).txt",
+		"/home/jamalex/khan/khanberry/download.py",
+		"/home/jamalex/khan/khanberry/notes.txt",
+		"/home/jamalex/khan/khanberry/templates/topic.html",
+		"/home/jamalex/khan/khanberry/server.py",
+		"/home/jamalex/Desktop/Talent Show/Links.txt",
+		"/home/jamalex/khan/khanberry/static/humanities/index.html",
+		"/media/8fe3c9ad-c8f5-4b39-aec2-f6e8dba743e0/home/pi/exercises/index.html",
+		"/home/jamalex/khan/khanberry/topictree.json",
+		"/home/jamalex/khan/khanberry/templates/frame.html",
+		"/home/jamalex/khan/jamiealexandre/templates/about/about_the_site.html",
+		"/home/jamalex/Desktop/SVids/jobvite/comments.txt",
+		"/home/jamalex/Desktop/SVids/storyline.txt",
+		"/home/jamalex/Desktop/SVids/practice.mlt",
+		"/home/jamalex/khan/epiclesson/server.coffee",
+		"/home/jamalex/Desktop/SVids/avconv notes.txt",
+		"/home/jamalex/khan/khanberry/test.html",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/video-description.handlebars",
+		"/home/jamalex/khan/jamiealexandre/exercise_video_model.py",
+		"/home/jamalex/khan/secrets/config",
+		"/home/jamalex/.ssh/config",
+		"/home/jamalex/khan/Two truths and a lie.txt",
+		"/home/jamalex/khan/jamiealexandre/api/route_decorator.py",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/shared-package/dropdown.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-package/record.js",
+		"/home/jamalex/khan/jamiealexandre/javascript/scratchpads-package/scratchpad-ui.js",
+		"/home/jamalex/khan/jamiealexandre/third_party/gdata-python-client-src/samples/apps/marketplace_sample/gdata/tlslite/messages.py",
+		"/home/jamalex/khan/jamiealexandre/javascript/scratchpads-exec-package/output.js",
+		"/home/jamalex/khan/jamiealexandre/gae_bingo/templates/bootstrap.html",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/video-package/modalvideo.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-package/editor.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-package/ace.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-package/scratchpad-ui.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-exec-package/output.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/login-package/login.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-exec-package/jshint-worker.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-exec-package/babyhint.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/video-package/video.js",
+		"/home/jamalex/khan/jamiealexandre/badges/last_action_cache.py",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-package/canvas.js",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/scratchpads-package/jquery-ui.js",
+		"/home/jamalex/khan/jamiealexandre/scratchpads/handlers.py",
+		"/home/jamalex/khan/jamiealexandre/scratchpads/models.py",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/video-package/video-wrapper.handlebars",
+		"/home/jamalex/khan/jamiealexandre/templates/macros/app.html",
+		"/home/jamalex/khan/jamiealexandre/socrates/handlers.py",
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/modalvideo.js",
+		"/home/jamalex/khan/jamiealexandre/stylesheets/shared-package/dropdown.less",
+		"/home/jamalex/khan/jamiealexandre/stylesheets/shared-package/font-awesome.less",
+		"/home/jamalex/khan/jamiealexandre/stylesheets/bootstrap-package/dropdowns.less",
+		"/home/jamalex/khan/jamiealexandre/javascript/shared-package/handlebars-extras.js",
+		"/home/jamalex/khan/jamiealexandre/templates/page_template.html",
+		"/home/jamalex/khan/jamiealexandre/clienttemplates/socrates-package/socrates.js",
+		"/home/jamalex/khan/jamiealexandre/khan-exercises/css/khan-site.css",
+		"/home/jamalex/khan/jamiealexandre/stylesheets/bootstrap-package/navbar.less",
+		"/home/jamalex/khan/jamiealexandre/templates/videoplayer.html",
+		"/home/jamalex/khan/jamiealexandre/stylesheets/profile-package/profile.css"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.*,-*.less.css,-*.handlebars.js,-*.handlebars.json",
+			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.*,-*.less.css,-*.handlebars.js",
+			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.*,-*.less.css",
+			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.js,-*.less.css",
+			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.js",
+			"/home/jamalex/khan/jamiealexandre,-*combined.js,-hashed*.js",
+			"/home/jamalex/khan/jamiealexandre,-*combined.js",
+			"/home/jamalex/khan/jamiealexandre,-*/clienttemplates/*",
+			"/home/jamalex/khan/jamiealexandre,-*/clienttemplates/*,-*combined.js",
+			"/home/jamalex/khan/jamiealexandre/",
+			"/home/jamalex/khan/jamiealexandre/javascript/video-package",
+			"/home/jamalex/khan/jamiealexandre",
+			"/home/jamalex/khan/jamiealexandre,*.py",
+			"/home/jamalex/khan/jamiealexandre",
+			"/home/jamalex/khan/jamiealexandre,-*/clienttemplates/*",
+			"/home/jamalex/khan/jamiealexandre",
+			"/home/jamalex/khan/jamiealexandre,-*/clienttemplates/*",
+			"/home/jamalex/khan/,-*/clienttemplates/*",
+			"/home/jamalex/khan/socrates/,-*/clienttemplates/*",
+			"/home/jamalex/khan/jamiealexandre/,-*/clienttemplates/*",
+			"/home/jamalex/khan/jamiealexandre/,-/clienttemplates/*",
+			"/home/jamalex/khan/jamiealexandre/",
+			"/home/jamalex/khan/jamiealexandre/javascript/video-package",
+			"/home/jamalex/khan/jamiealexandre",
+			"",
+			"*.js",
+			"/home/jamalex/.config/sublime-text-2/Packages/Color Scheme - Default",
+			"/home/jamalex/.config/sublime-text-2/Packages",
+			"*,/home/jamalex/.config/sublime-text-2/Packages",
+			"*,/home/jamalex/.config/sublime-text-2/Packages/IPython",
+			"*",
+			"*.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"index",
+			"preventDefault",
+			"builder-controls",
+			"bt-move",
+			"blobbui",
+			"    var BlobBuilder = (function(w) {\n      return w.BlobBuilder || w.WebKitBlobBuilder || w.MozBlobBuilder;\n    })(window);",
+			"BlobBuilder",
+			"blobbuilder",
+			"blob",
+			"timeAtLastPoll",
+			" ",
+			"duration",
+			"KA-youtube-converted",
+			"votes[",
+			"rules.rounds",
+			"reconnec",
+			".text",
+			"#mess",
+			"showMessage",
+			"projectcomplete",
+			"project-vote",
+			"#project",
+			"obj.proposal",
+			"proposal.players",
+			"projectvoting",
+			"io.sockets.in",
+			".vote",
+			"failed",
+			"votes[",
+			"voting",
+			"socket.name",
+			"is now the leader",
+			"proposing",
+			"request",
+			"is now the leader",
+			"id",
+			"voting",
+			"#vote",
+			"vote-text",
+			"proposal",
+			"append",
+			"showLeader",
+			"span",
+			"proposeIfLeader",
+			"proposing",
+			"requestProposal",
+			"propose-opt",
+			"leader",
+			"leader =",
+			"leader ",
+			"20px",
+			"count",
+			"leader",
+			"sendGameData",
+			"[",
+			"proposeIfLeader",
+			"proposing",
+			"supportcount",
+			"voting",
+			"mission",
+			"propose",
+			"vote",
+			"room",
+			"obj.leader",
+			"toggleVisibility",
+			"vote-proposal",
+			"vote-question",
+			"class",
+			"#",
+			"badpla",
+			"badplayers",
+			"start-ga",
+			".html",
+			"updateObj",
+			"visitors",
+			"visitors[",
+			"socket.session",
+			"visitors",
+			"updateObj",
+			"hash",
+			"badpeople",
+			"[",
+			":",
+			"indexOf",
+			"socket",
+			"gamestarted",
+			"rooms",
+			"6px",
+			"hangoutUrl",
+			"hash",
+			"newname",
+			"gameid",
+			"session",
+			".emit",
+			"toggleStartLink",
+			"10",
+			"6px",
+			"visitor",
+			"name",
+			"3px",
+			"div",
+			".name",
+			"session",
+			"name",
+			"games",
+			"'",
+			"href",
+			"gameid",
+			"gamecode",
+			"room",
+			"gamecode",
+			"u",
+			"key",
+			"word",
+			";",
+			"//",
+			"_",
+			"'",
+			"registerDynamic",
+			"attempt",
+			"apiEntity",
+			"exercises",
+			"apiEntity",
+			"Khan.",
+			"attempt",
+			"trackSingleEvent",
+			"Expan",
+			"Analytics."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_initJumpLinks",
+			"_initializeEventListeners",
+			"this.options.videoView.player",
+			"}}",
+			"{{",
+			"\"",
+			"IPython",
+			"penguin",
+			"Theme - SodaMod/"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "7889c9cf",
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "run.sh",
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "931be0c1",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "edit.sh",
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "b39c485e",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/presentation.less",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "d0ed876c",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "builder4impress/js/builder.js",
+					"settings":
+					{
+						"buffer_size": 8048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "21bc39f2",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/impress.css",
+					"settings":
+					{
+						"buffer_size": 14251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5954,
+								5954
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "56671601",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4716.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffee_output":
+	{
+		"height": 110.0
+	},
+	"output.find_results":
+	{
+		"height": 98.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"impress-de",
+				"css/impress-demo.css"
+			],
+			[
+				"present",
+				"presentation.html"
+			],
+			[
+				"index",
+				"builder4impress/index.html"
+			],
+			[
+				"video.js",
+				"javascript/shared-package/video-addons.js"
+			],
+			[
+				"video-back",
+				"javascript/video-package/video-backbone.js"
+			],
+			[
+				"secret",
+				"secrets.py"
+			],
+			[
+				"package",
+				"js_css_packages/packages.py"
+			],
+			[
+				"packageloa",
+				"javascript/shared-package/packageloader.js"
+			],
+			[
+				"v1.py",
+				"api/v1.py"
+			],
+			[
+				"current-card",
+				"javascript/exercises-package/current-card.handlebars"
+			],
+			[
+				"assess",
+				"templates/exercises/assessment_template.html"
+			],
+			[
+				"exercise-header",
+				"javascript/exercises-package/exercise-header.handlebars"
+			],
+			[
+				"exercise.handleb",
+				"javascript/exercises-package/exercise.handlebars"
+			],
+			[
+				"exercises.js",
+				"javascript/exercises-package/exercises.js"
+			],
+			[
+				"exercise_templ",
+				"templates/exercises/exercise_template_old.html"
+			],
+			[
+				"exercise_template",
+				"templates/exercises/exercise_template_old.html"
+			],
+			[
+				"templatesexercises/.html",
+				"templates/exercises/exercise_template.html"
+			],
+			[
+				"khan-exer",
+				"khan-exercises/khan-exercise.js"
+			],
+			[
+				"main.py",
+				"main.py"
+			],
+			[
+				"embedv",
+				"templates/embedvideo.html"
+			],
+			[
+				"discussi.js",
+				"javascript/discussion-package/discussion.js"
+			],
+			[
+				"problem-template",
+				"javascript/exercises-package/problem-template.handlebars"
+			],
+			[
+				"packages",
+				"js_css_packages/packages.py"
+			],
+			[
+				"embed",
+				"templates/embedvideo.html"
+			],
+			[
+				"packageload",
+				"javascript/shared-package/packageloader.js"
+			],
+			[
+				"tutorial-nav",
+				"javascript/tutorial-package/tutorial-nav.js"
+			],
+			[
+				"embedopt",
+				"javascript/video-package/share-embed-options.handlebars"
+			],
+			[
+				"embedvid",
+				"templates/embedvideo.html"
+			],
+			[
+				"robot",
+				"robots.py"
+			],
+			[
+				"video-addo",
+				"javascript/shared-package/video-addons.js"
+			],
+			[
+				"robots",
+				"robots.py"
+			],
+			[
+				"video-add",
+				"javascript/shared-package/video-addons.js"
+			],
+			[
+				"videoadd",
+				"javascript/shared-package/video-addons.js"
+			],
+			[
+				"linkbar",
+				"javascript/video-package/video-extra-link-bar.handlebars"
+			],
+			[
+				"optionshandleba",
+				"javascript/video-package/share-embed-options.handlebars"
+			],
+			[
+				"video-backbo",
+				"javascript/video-package/video-backbone.js"
+			],
+			[
+				"youtube-",
+				"javascript/video-package/youtube-embedded-player.handlebars"
+			],
+			[
+				"iframe-player",
+				"javascript/shared-package/youtube-iframe-player.handlebars"
+			],
+			[
+				"video.lss",
+				"stylesheets/video-package/video.less"
+			],
+			[
+				"youtube-ifr",
+				"javascript/shared-package/youtube-iframe-player.handlebars"
+			],
+			[
+				"video-yout",
+				"javascript/video-package/youtube-embedded-player.handlebars"
+			],
+			[
+				"packa",
+				"js_css_packages/packages.py"
+			],
+			[
+				"share-embed",
+				"javascript/video-package/share-embed-options.handlebars"
+			],
+			[
+				"videoless",
+				"stylesheets/video-package/video.less"
+			],
+			[
+				"video-wrapp",
+				"javascript/video-package/video-wrapper.handlebars"
+			],
+			[
+				"site",
+				"templates/about/about_the_site.html"
+			],
+			[
+				"descripti",
+				"javascript/video-package/video-description.handlebars"
+			],
+			[
+				"route_dec",
+				"api/route_decorator.py"
+			],
+			[
+				"extralinks",
+				"javascript/video-package/video-extra-link-bar.handlebars"
+			],
+			[
+				"usermode",
+				"user_models.py"
+			],
+			[
+				"videomodel",
+				"video_models.py"
+			],
+			[
+				"video_mode",
+				"video_models.py"
+			],
+			[
+				"scratcui",
+				"javascript/scratchpads-package/scratchpad-ui.js"
+			],
+			[
+				"postmessage",
+				"third_party/gdata-python-client-src/samples/apps/marketplace_sample/gdata/tlslite/messages.py"
+			],
+			[
+				"output.js",
+				"javascript/scratchpads-exec-package/output.js"
+			],
+			[
+				"video.less",
+				"stylesheets/video-package/video.less"
+			],
+			[
+				"modalvide",
+				"javascript/video-package/modalvideo.js"
+			],
+			[
+				"page_te",
+				"templates/page_template.html"
+			],
+			[
+				"video-extra",
+				"javascript/video-package/video-extra-link-bar.handlebars"
+			],
+			[
+				"modal",
+				"javascript/shared-package/bootstrap-modal.js"
+			],
+			[
+				"stylesheets/video",
+				"stylesheets/video-package/video.less"
+			],
+			[
+				"handlebars-ext",
+				"javascript/shared-package/handlebars-extras.js"
+			],
+			[
+				"video-header",
+				"javascript/video-package/video-header.handlebars"
+			],
+			[
+				"viewvideo",
+				"templates/viewvideo.html"
+			],
+			[
+				"page_template.html",
+				"templates/page_template.html"
+			],
+			[
+				"template-slim.html",
+				"templates/labs/template-slim.html"
+			],
+			[
+				"request_handl",
+				"request_handler.py"
+			],
+			[
+				"viewvide",
+				"templates/viewvideo.html"
+			],
+			[
+				"video-footer",
+				"javascript/video-package/video-footer.handlebars"
+			],
+			[
+				"video-iframe",
+				"javascript/shared-package/youtube-iframe-player.handlebars"
+			],
+			[
+				"cideo-add",
+				"javascript/shared-package/video-addons.js"
+			],
+			[
+				"tutorial",
+				"templates/scratchpads/tutorials.html"
+			],
+			[
+				"video-addon",
+				"javascript/shared-package/video-addons.js"
+			],
+			[
+				"output.",
+				"javascript/scratchpads-package/output.js"
+			],
+			[
+				"iframe-",
+				"javascript/shared-package/youtube-iframe-player.handlebars"
+			],
+			[
+				"render.py",
+				"handlebars/render.py"
+			],
+			[
+				"video-wra",
+				"javascript/video-package/video-wrapper.handlebars.json"
+			],
+			[
+				"pagete",
+				"templates/page_template.html"
+			],
+			[
+				"page",
+				"javascript/shared-package/pageutil.js"
+			],
+			[
+				"socrates",
+				"javascript/socrates-package/socrates.js"
+			],
+			[
+				"extra-link",
+				"javascript/video-package/video-extra-link-bar.handlebars"
+			],
+			[
+				"energy",
+				"javascript/video-package/video-energy-points.handlebars"
+			],
+			[
+				"video-bac",
+				"javascript/video-package/video-backbone.js"
+			],
+			[
+				"video.html",
+				"templates/viewvideo.html"
+			],
+			[
+				"videobackb",
+				"javascript/video-package/video-backbone.js"
+			],
+			[
+				"videobac",
+				"javascript/video-package/video-backbone.js"
+			],
+			[
+				"discussion.html",
+				"templates/macros/discussion.html"
+			],
+			[
+				"videodiscussion",
+				"templates/videodiscussion.html"
+			],
+			[
+				"backbone",
+				"javascript/shared-package/backbone.js"
+			],
+			[
+				"poppl",
+				"javascript/shared-package/poppler.js"
+			],
+			[
+				"bootstrap-mod",
+				"javascript/shared-package/bootstrap-modal.js"
+			],
+			[
+				"bootstrap",
+				"stylesheets/bootstrap-package/bootstrap.less"
+			],
+			[
+				"bootstrap-modal",
+				"javascript/shared-package/bootstrap-modal.js"
+			],
+			[
+				"poppler",
+				"javascript/socrates-package/poppler_test.html"
+			],
+			[
+				"packages.py",
+				"js_css_packages/packages.py"
+			],
+			[
+				"",
+				"activity_summary.py"
+			],
+			[
+				"video-wa",
+				"javascript/video-package/video-wrapper.handlebars.json"
+			],
+			[
+				"underscore",
+				"javascript/shared-package/underscore.js"
+			],
+			[
+				"youtube-pla",
+				"javascript/shared-package/youtube-player.handlebars"
+			],
+			[
+				"homepage",
+				"javascript/homepage-package/homepage.js"
+			],
+			[
+				"youtube-player",
+				"javascript/video-package/video-youtube-player.handlebars"
+			],
+			[
+				"viewvideobac",
+				"templates/viewvideobackbone.html"
+			],
+			[
+				"modalvid",
+				"javascript/video-package/modal-video.handlebars"
+			],
+			[
+				"video-wrappe",
+				"javascript/video-package/video-wrapper.handlebars"
+			],
+			[
+				"youtub",
+				"templates/macros/youtube.html"
+			],
+			[
+				"video-youtube-player",
+				"javascript/video-package/video-youtube-player.handlebars"
+			],
+			[
+				"youtube.html",
+				"templates/macros/youtube.html"
+			],
+			[
+				"render",
+				"jamiealexandre/handlebars/render.py"
+			],
+			[
+				"third/compi",
+				"jamiealexandre/third_party/pybars/_compiler.py"
+			],
+			[
+				"render.",
+				"jamiealexandre/handlebars/render.py"
+			],
+			[
+				"compile_handlebar",
+				"jamiealexandre/deploy/compile_handlebar_templates.py"
+			],
+			[
+				"login_buttons",
+				"jamiealexandre/templates/macros/login_buttons.html"
+			],
+			[
+				"login.hm",
+				"jamiealexandre/templates/login.html"
+			],
+			[
+				"secre",
+				"secrets_dev.py"
+			],
+			[
+				"v1.",
+				"jamiealexandre/api/v1.py"
+			],
+			[
+				"youtubeplayer",
+				"jamiealexandre/javascript/shared-package/youtube-player.handlebars"
+			],
+			[
+				"v1.p",
+				"jamiealexandre/api/v1.py"
+			],
+			[
+				"viewvideob",
+				"jamiealexandre/templates/viewvideobackbone.html"
+			],
+			[
+				"v1",
+				"jamiealexandre/api/v1.py"
+			],
+			[
+				"truth",
+				"Two truths and a lie.txt"
+			],
+			[
+				"trut",
+				"Two truths and a lie.txt"
+			],
+			[
+				"packag",
+				"jamiealexandre/js_css_packages/packages.py"
+			],
+			[
+				"api.js",
+				"jamiealexandre/javascript/shared-package/api.js"
+			],
+			[
+				"backbone.",
+				"jamiealexandre/javascript/shared-package/backbone.js"
+			],
+			[
+				"template",
+				"jamiealexandre/templatetags.py"
+			],
+			[
+				"templatetags",
+				"jamiealexandre/templatetags.py"
+			],
+			[
+				"firstmee",
+				"notes/first meeting with Stephanie.txt"
+			],
+			[
+				"video-addons",
+				"jamiealexandre/clienttemplates/shared-package/video-addons.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true
+}
