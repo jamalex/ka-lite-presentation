@@ -1,6 +1,7 @@
 <!doctype html>
 
-<html lang="en" style="height: 100%;"><head>
+<html style="height: 100%;" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -10,7 +11,7 @@
     <link rel="shortcut icon" href="favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet">
+    <link href="index_files/css.css" rel="stylesheet">
 
     <link href="css/impress.css" rel="stylesheet">
     <link href="alohaeditor-0.22.6/aloha/css/aloha.css" rel="stylesheet" id="aloha-css">
@@ -62,19 +63,19 @@
         <img src="images/animated_city.gif" style="width: 100%;">
     </div>
 
-    <div id="internet-sign" class="step" data-x="636" data-y="959" data-group="globe">
+    <div id="internet-sign" class="step" data-x="802" data-y="1053" data-group="globe" data-scale="0.9099999999999999">
         <div style="text-align: center; height: 100%;">
-            <img src="images/fast-internet-hanging.png" width="700" style="z-index: -2;">
+            <img src="images/fast-internet-hanging.png" style="z-index: -2;" width="700">
         </div>
     </div>
 
-    <div id="spinning-globe" class="step" data-x="995" data-y="1005" data-group="globe">
+    <div id="spinning-globe" class="step" data-x="1110" data-y="1078" data-group="globe">
         <div style="text-align: center; height: 100%;">
-            <img src="images/earth_at_night_slow.gif" width="700" style="position: absolute; top: -10px; left: 350px;">
+            <img src="images/earth_at_night_slow.gif" style="position: absolute; top: -10px; left: 500px;" width="700">
         </div>
     </div>
     
-    <div id="globe-internet" class="step" data-x="1169" data-y="991" data-rotate="89" data-group="internet" data-scale="1.15">
+    <div id="globe-internet" class="step" data-x="1234.4245021366708" data-y="994.6459642857681" data-rotate="89" data-group="internet" data-scale="1.2017500000000003">
         <div style="text-align: center;">
             <img src="images/internet-opte.org-map-smaller.png" width="540">
         </div>
@@ -82,28 +83,25 @@
 
     <div id="man-in-the-net" class="step" data-x="1220" data-y="991" data-rotate="89" data-scale="0.05" data-group="internet">
         <div>
-            <img src="images/man-in-the-net.jpg" style="width: 1000px; margin-left: -300px; opacity: 0.5;">
+            <img src="images/man-in-the-net.jpg" style="width: 1000px; margin-left: -100px; opacity: 0.75;">
         </div>
     </div>
     
-    <div id="globe-fringe-zoom" class="step" data-x="1474.0182374699461" data-y="841.5176191952945" data-scale="0.25" data-rotate="83" data-group="internet">
+    <div id="globe-fringe-zoom" class="step" data-x="1642.425096745013" data-y="810.2907756741936" data-scale="0.18052499999999996" data-rotate="83" data-group="internet" data-background="black">
         <!-- TODO: insert "on the fringe" text/image here? -->                
     </div>
-    <script>
-        $("#impress .step:last").on("impress:stepenter", function (event) {
-            $("body").animate({backgroundColor: "black"}, 500);
-        });        
-    </script>
     
-    <div id="mission" class="step slide" data-x="-1352" data-y="0" data-scale="0.9">
+    <div id="mission" class="step slide" data-x="-1352" data-y="0" data-scale="0.9" data-background="white">
 
-        <img id="about-vertical-logo" src="images/khan-logo-vertical-transparent.png" width="160" style="float: left; padding: 10px 35px 140px 0; margin-left: -30px;">
+        <img id="about-vertical-logo" src="images/khan-logo-vertical-transparent.png" style="float: left; padding: 10px 35px 140px 0; margin-left: -30px;" width="160">
 
         <div class="col2 forty-sixty" style="max-width:81%; text-align: justify;">
             <h2 class="main-headline" style="white-space: pre; font-size: 28px; margin-bottom: 22px; font-weight: bold;">A free world-class education for anyone anywhere.</h2>
 
             <div style="font-size: 25px; line-height: 27px; padding-bottom: 20px; width: 800px;">
-                The Khan Academy is an organization on a mission. We're a not-for-profit with the goal of changing education for the better by providing a free
+                The Khan Academy is an organization on a mission. We're a
+ not-for-profit with the goal of changing education for the better by 
+providing a free
                 <span class="emphasize">world</span>-class education for <span class="emphasize">anyone anywhere</span>.
             </div>
 
@@ -132,11 +130,7 @@
         </div>
 
     </div>
-    <script>
-        $("#impress .step:last").on("impress:stepenter", function (event) {
-            $("body").animate({backgroundColor: "white"}, 2000);
-        });        
-    </script>
+    
 
 
 
@@ -175,6 +169,9 @@
             $group_elements.addClass("current").removeClass("later earlier");
             $(event.target).prevAll().not($group_elements).addClass("earlier").removeClass("later current");
             $(event.target).nextAll().not($group_elements).addClass("later").removeClass("earlier current");
+            if ($(event.target).data("background")) {
+                $("body").animate({backgroundColor: $(event.target).data("background")}, 1000);
+            }
         });
 
         $("#impress").on("impress:stepleave", function (event) {
