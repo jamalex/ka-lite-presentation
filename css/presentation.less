@@ -20,11 +20,15 @@ body {
 
 .step {
     // z-index: -5;
-    opacity: 0.3;
+    opacity: 0.2;
     .transition(opacity 1s);
 }
 
-.step.current {
+.step.hidden {
+    opacity: 0;
+}
+
+.step.current, .step.hidden.current {
     // z-index: 0;
     opacity: 1;
 }
