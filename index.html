@@ -2,7 +2,7 @@
 
 <html lang="en" style="height: 100%;"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     
     <title>KA Lite</title>
@@ -13,11 +13,11 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet">
 
     <link href="css/impress.css" rel="stylesheet">
-    <link href="alohaeditor-0.22.6/aloha/css/aloha.css" rel="stylesheet">
+    <link href="alohaeditor-0.22.6/aloha/css/aloha.css" rel="stylesheet" id="aloha-css">
 
     <link rel="stylesheet/less" type="text/css" href="css/presentation.less">
 
-    <link href="builder4impress/css/builder.css" rel="stylesheet">
+    <link href="builder4impress/css/builder.css" rel="stylesheet" id="builder-css">
         
     <script src="js/jquery-1.8.1.min.js"></script>
     
@@ -30,8 +30,13 @@
     
         window.less = {
             env: "development", // or "production"
-            // poll: 1000         // when in watch mode, time in ms between polls
+            poll: 500         // when in watch mode, time in ms between polls
         };
+
+        if (!edit_mode) {
+            $("#builder-css, #aloha-css").remove();
+            
+        }
 
     </script>
 
@@ -47,20 +52,52 @@
 
 <body class="impress-not-supported">
 
-<div class="fallback-message">
-    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
-</div>
+<div id="impress" data-height="1000" data-width="1333">
 
-<div id="impress">
-
-    <div id="intro" class="step" data-x="-1500" data-scale="10" data-y="0">
-        <img src="KA_Lite_pi_logo.png" style="width: 85%; margin-top: 60px; margin-left: 142px;">
+    <div id="country-map" class="step">
+        <img src="images/map.svg" style="height: 100%;">
+    </div>
+    
+    <div id="country-city" class="step" data-scale="0.15" data-x="-100" data-y="-30" data-z="2" data-rotate-x="-30" data-rotate-z="2">
+        <img src="images/animated_city.gif" style="width: 100%;">
     </div>
 
+    <div id="internet-sign" class="step" data-x="636" data-y="959" data-group="globe">
+        <div style="text-align: center; height: 100%;">
+            <img src="images/fast-internet-hanging.png" width="700" style="z-index: -2;">
+        </div>
+    </div>
+
+    <div id="spinning-globe" class="step" data-x="995" data-y="1005" data-group="globe">
+        <div style="text-align: center; height: 100%;">
+            <img src="images/earth_at_night_slow.gif" width="700" style="position: absolute; top: -10px; left: 350px;">
+        </div>
+    </div>
+    
+    <div id="globe-internet" class="step" data-x="1169" data-y="991" data-rotate="89" data-group="internet" data-scale="1.15">
+        <div style="text-align: center;">
+            <img src="images/internet-opte.org-map-smaller.png" width="540">
+        </div>
+    </div>
+
+    <div id="man-in-the-net" class="step" data-x="1220" data-y="991" data-rotate="89" data-scale="0.05" data-group="internet">
+        <div>
+            <img src="images/man-in-the-net.jpg" style="width: 1000px; margin-left: -300px; opacity: 0.5;">
+        </div>
+    </div>
+    
+    <div id="globe-fringe-zoom" class="step" data-x="1474.0182374699461" data-y="841.5176191952945" data-scale="0.25" data-rotate="83" data-group="internet">
+        <!-- TODO: insert "on the fringe" text/image here? -->                
+    </div>
+    <script>
+        $("#impress .step:last").on("impress:stepenter", function (event) {
+            $("body").animate({backgroundColor: "black"}, 500);
+        });        
+    </script>
+    
     <div id="mission" class="step slide" data-x="-1352" data-y="0" data-scale="0.9">
 
-        <img id="about-vertical-logo" src="khan-logo-vertical-transparent.png" width="160" style="float: left; padding: 10px 35px 140px 0; margin-left: -30px;">
+        <img id="about-vertical-logo" src="images/khan-logo-vertical-transparent.png" width="160" style="float: left; padding: 10px 35px 140px 0; margin-left: -30px;">
 
         <div class="col2 forty-sixty" style="max-width:81%; text-align: justify;">
             <h2 class="main-headline" style="white-space: pre; font-size: 28px; margin-bottom: 22px; font-weight: bold;">A free world-class education for anyone anywhere.</h2>
@@ -95,117 +132,15 @@
         </div>
 
     </div>
+    <script>
+        $("#impress .step:last").on("impress:stepenter", function (event) {
+            $("body").animate({backgroundColor: "white"}, 2000);
+        });        
+    </script>
 
-    <div class="step slide" data-x="-500" data-y="0">
-        
-        <div style="float: left; width: 800px; font-weight: bold; padding-top: 60px;">
-            Amazing successes from an awesome, dedicated team!
-        </div>
 
-        <div style="padding-top: 50px; float: left; width: 800px;">
-            Multilingual subtitles, dubbed remixes, i18n, international partnerships and pilot schools. <b>Very</b>, very exciting!
-        </div>
 
-        <div style="padding-top: 50px; float: left; width: 800px; padding-bottom: 30px;">
-            But almost all of this usage still relies on... 
-        </div>
-        
-        <center>
-            <img src="internet-map.gif" width="65%">
-        </center>
-        
-    </div>
-    
-    <img src="world2011pr.png" class="step" data-x="600">
-    
-    <div class="step" data-x="1700" data-y="0">
-        
-        <img src="student-teacher-ratio-vs-internet-users.png" width="125%" style="margin-left: -12%;">
-        
-    </div>
-    
-    <div class="step" data-x="2200" data-y="-100" data-z="-2000">
-        <div style="font-size: 26px; background: url(scale.png) no-repeat center; min-height: 600px; padding-top: 130px;">
-            <h2 style="font-weight: bold; font-size: 1.2em; text-align: center;">Bridging the Divide</h2>
-            <br>
-            <p>Education and the internet have the potential to be global equalizers.</p>
-            <br>
-            <p>Right now, they often <i>widen</i> the chasm between haves and have-nots.</p>
-            <br>
-            <p>Our mission is to connect the disconnected, and help make universal education <i>truly</i> universal.</p>
-        </div>
-    </div>
-     
-    <img src="country_map.gif" class="step" data-x="1500" data-y="700" data-scale="5">
-    
-    <img src="server-clients.png" class="step" data-x="2880" data-y="920" data-scale="0.05">
- 
-    <img src="van.jpg" class="step" data-x="3000" data-y="1000">
-    
-    <!-- <img src="van.jpg" class="step" data-x="3000" data-y="1000"> -->
-    
-    <img src="server-servers.png" class="step" data-x="7000" data-y="1000" data-scale="6">
-    
-    <div class="step" data-x="7000" data-y="6500" data-scale="4" data-rotate-z="50">
-        <div style="font-size: 50px; line-height: 35px; padding-bottom: 40px;">
-            Guiding Technological Principles
-        </div>
-        <ul>
-            <li style="margin-left: 18px; font-size: 35px; line-height: 65px;">
-                Cross-platform: Windows, Linux, OSX, Android
-            </li>
-            <li style="margin-left: 18px; font-size: 35px; line-height: 65px;">
-                Easy for anyone to install
-            </li>
-            <li style="margin-left: 18px; font-size: 35px; line-height: 65px;">
-                Synchronization; eventual consistency
-            </li>
-            <li style="margin-left: 18px; font-size: 35px; line-height: 65px;">
-                Support cheap, low-power hardware
-            </li>
-        </ul>
-    </div>
-    
-    <div class="step" data-x="7000" data-y="6500" data-scale="4" data-rotate-z="70">
-        <img src="raspberrypi_antenna.gif" width="110%" style="margin-left: -5%">
-    </div>
-
-    <img class="step" src="original_architecture.svg" data-x="6150" data-y="6000" data-scale="0.2" data-rotate-z="130">
-    
-    <img class="step" src="simplified_architecture.svg" data-x="6170" data-y="6010" data-scale="0.01" data-rotate-z="130">
-
-    <div class="step slide" data-x="0" data-y="5000">
-        
-        <div style="padding-top: 60px; font-size: 25px;">
-        
-            <div style="float: left; width: 800px; font-weight: bold;">
-                What does it include?
-            </div>
-
-            <div style="padding-top: 20px; float: left; width: 800px;">
-                <ul>
-                    <li>Django app to render lite versions of core site pages: topic pages, videos, exercises, knowledge maps.</li>
-                    <li>Interfaces for synchronizing content (videos, exercises, thumbnails, topic tree) from the main site.</li>
-                    <li>Student and teacher accounts, tracking progress (points!) on videos and exercises, basic coach reports.</li>
-                    <li>Crypto-signed database records to ensure source and integrity during sync with central server.</li>
-                </ul>
-            </div>
-
-            <div style="float: left; width: 800px; font-weight: bold; padding-top: 30px;">
-                What's coming?
-            </div>
-
-            <div style="padding-top: 20px; float: left; width: 800px; padding-bottom: 40px;">
-                <ul>
-                    <li>Installation bundles for Windows, OSX, Raspberry Pi, Ubuntu/Debian.</li>
-                    <li>Full internationalization (i18n) and support for dubbed videos.</li>
-                    <li>Easy P2P synchronization between devices: internet, intranet, usb stick.</li>
-                </ul>
-            </div>
-        </div>
-    </div>            
-
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10"></div>
+    <div id="overview" class="step" data-x="0" data-y="0" data-scale="10"></div>
 
 </div>
 
@@ -226,7 +161,30 @@
             redrawFunction:api.initStep, //future API method that (re)draws the step
             setTransformationCallback:api.setTransformationCallback //future API method that lets me know when transformations change
         });
+        
+        $(function() {
+            // hack to make dragging in editor work properly on the first slide loaded
+            api.next();
+            api.prev();        
+        });
     }
+    
+    $(function() {
+        $("#impress").on("impress:stepenter", function (event) {
+            var $group_elements = $(".step[data-group=" + $(event.target).data("group") + "]").add(event.target);
+            $group_elements.addClass("current").removeClass("later earlier");
+            $(event.target).prevAll().not($group_elements).addClass("earlier").removeClass("later current");
+            $(event.target).nextAll().not($group_elements).addClass("later").removeClass("earlier current");
+        });
+
+        $("#impress").on("impress:stepleave", function (event) {
+            
+        });
+
+        // $("#overview").on("impress:stepleave", function (event) {
+        //     alert("left overview");
+        // });
+    })
     
 </script>
 

@@ -1,2 +1,66 @@
 @import "mixins.less";
 
+body {
+    background-color: black;
+}
+
+.step {
+    position: relative;
+    width: 900px;
+    height: 700px;
+    padding: 30px;
+    margin: 10px auto;
+
+    .box-sizing(border-box);
+
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.step {
+    // z-index: -5;
+    opacity: 0.3;
+    .transition(opacity 1s);
+}
+
+.step.current {
+    // z-index: 0;
+    opacity: 1;
+}
+
+/*  These 'slide' step styles were heavily inspired by HTML5 Slides:
+    http://html5slides.googlecode.com/svn/trunk/styles.css
+*/
+.slide {
+    display: block;
+
+    padding: 40px 60px;
+
+    background-color: #e5ffe5;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+
+
+// #country-city img {
+//     display: inline-block;
+//     .rotateX(5deg);
+    
+// }
+
+// .current#country-city img {
+//     .transition(1s);
+//     .rotateX(0);
+// }
+

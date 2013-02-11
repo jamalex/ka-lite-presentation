@@ -596,7 +596,7 @@
         // So every step element is always in one of three possible states:
         // `future`, `present` and `past`.
         //
-        // There classes can be used in CSS to style different types of steps.
+        // These classes can be used in CSS to style different types of steps.
         // For example the `present` class can be used to trigger some custom
         // animations when step is shown.
         root.addEventListener("impress:init", function(){

@@ -70,12 +70,11 @@ Builder=(function(){
     $overview=$('#overview');
 
     $menu=$('<div></div>').addClass('builder-main');
-    $('<div></div>').addClass('builder-bt bt-add').appendTo($menu).text('Add new').on('click',addSlide);
-    $('<div></div>').addClass('builder-bt bt-overview').appendTo($menu).text('Overview').on('click',function(){
+    $('<div></div>').addClass('builder-bt bt-add').appendTo($menu).on('click',addSlide);
+    $('<div></div>').addClass('builder-bt bt-overview').appendTo($menu).on('click',function(){
       config['goto']('overview');
     });
-    $('<div></div>').addClass('builder-bt bt-download').appendTo($menu).text('Get file').on('click',downloadResults);
-    $('<div></div>').addClass('builder-bt bt-download').appendTo($menu).text('style.css').on('click',downloadStyle);
+    $('<div></div>').addClass('builder-bt bt-download').appendTo($menu).on('click',downloadResults);
 
 
     $menu.appendTo('body');
@@ -94,10 +93,7 @@ Builder=(function(){
 
     var showTimer;
 
-    // $controls.css({zIndex: 100000});
-
     $controls.appendTo('body').on('mousedown','div',function(e){
-      // alert($(this).attr('funct'))
       e.preventDefault();
       mouse.activeFunction=handlers[$(this).attr('funct')];
       loadData();
@@ -155,17 +151,6 @@ Builder=(function(){
     config['goto']('overview');
   }
 
-
-  function downloadStyle(){
-    var uriContent,content,$doc;
-
-    $.get('style.css', function (content) {
-      var blob = new Blob([content], {type: "text/css;charset=utf-8"});
-      saveAs(blob, "style.css");
-    });
-
-  }
-
   function downloadResults(){
     var uriContent,content,$doc;
     $doc=$(document.documentElement).clone();
@@ -181,7 +166,7 @@ Builder=(function(){
     $doc.find('script[data-requirecontext=aloha]').remove();
     $doc.find("[contenteditable]").removeAttr("contenteditable");
     //remove impress.js-added classes
-    $doc.find('.future, .active, .present, .past').removeClass("future active present past");
+    $doc.find('*').removeClass("future active present past earlier later current");
     //remove impress.js-added ids
     $doc.find("[id^=step-]").removeAttr("id");
     //remove LESS-added style tags
@@ -190,8 +175,6 @@ Builder=(function(){
     $doc.find("[data-scale=1]").removeAttr("data-scale");
     // remove default rotate values
     $doc.find("[data-rotate=0]").removeAttr("data-rotate");
-    //reset the viewport width
-    $doc.find("meta[name=viewport]").attr("content", "width=1024");
     //add impress.js base class
     $doc.find('body').attr('class','impress-not-supported');
     while (true) {

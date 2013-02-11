@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"aloha",
+				"aloha-css"
+			],
+			[
+				"trans",
+				"translateZ"
+			],
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
 				"ms",
 				"showMessage"
 			],
@@ -139,23 +155,24 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10513,
+				"buffer_size": 5314,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "run.sh",
+			"contents": "subtitles",
 			"settings":
 			{
-				"buffer_size": 91,
-				"line_ending": "Unix"
+				"buffer_size": 9,
+				"line_ending": "Unix",
+				"name": "subtitles"
 			}
 		},
 		{
-			"file": "edit.sh",
+			"file": "css/mixins.less",
 			"settings":
 			{
-				"buffer_size": 146,
+				"buffer_size": 6874,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,15 +180,7 @@
 			"file": "css/presentation.less",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "builder4impress/js/builder.js",
-			"settings":
-			{
-				"buffer_size": 8048,
+				"buffer_size": 1127,
 				"line_ending": "Unix"
 			}
 		},
@@ -179,7 +188,31 @@
 			"file": "css/impress.css",
 			"settings":
 			{
-				"buffer_size": 14251,
+				"buffer_size": 12609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "builder4impress/js/impress.js",
+			"settings":
+			{
+				"buffer_size": 32492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "builder4impress/js/builder.js",
+			"settings":
+			{
+				"buffer_size": 9552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index-old.html",
+			"settings":
+			{
+				"buffer_size": 11054,
 				"line_ending": "Unix"
 			}
 		}
@@ -187,16 +220,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 172.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
-				"renam",
-				"File: Rename"
-			],
-			[
 				"gui",
 				"Git: Gui"
+			],
+			[
+				"renam",
+				"File: Rename"
 			],
 			[
 				"diff",
@@ -304,9 +337,19 @@
 	},
 	"file_history":
 	[
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/builder4impress/js/builder.js",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/builder4impress/css/builder.css",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/presentation.html",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/index2.html",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/css/impress.css",
+		"/home/jamalex/temp/Aloha-Editor/test.html",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/alohaeditor-0.22.6/aloha/lib/aloha-bare.js",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/alohaeditor-0.22.6/aloha/lib/aloha.js",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/builder4impress/js/impress.js",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/run.sh",
+		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/edit.sh",
 		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/css/presentation.less",
 		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/js/less-1.3.3.min.js",
-		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/presentation.html",
 		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/css/impress-demo.css",
 		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/builder4impress/style.css",
 		"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/builder4impress/js/FileSaver.min.js",
@@ -421,17 +464,7 @@
 		"/home/jamalex/khan/jamiealexandre/clienttemplates/video-package/video-wrapper.handlebars",
 		"/home/jamalex/khan/jamiealexandre/templates/macros/app.html",
 		"/home/jamalex/khan/jamiealexandre/socrates/handlers.py",
-		"/home/jamalex/khan/jamiealexandre/javascript/video-package/modalvideo.js",
-		"/home/jamalex/khan/jamiealexandre/stylesheets/shared-package/dropdown.less",
-		"/home/jamalex/khan/jamiealexandre/stylesheets/shared-package/font-awesome.less",
-		"/home/jamalex/khan/jamiealexandre/stylesheets/bootstrap-package/dropdowns.less",
-		"/home/jamalex/khan/jamiealexandre/javascript/shared-package/handlebars-extras.js",
-		"/home/jamalex/khan/jamiealexandre/templates/page_template.html",
-		"/home/jamalex/khan/jamiealexandre/clienttemplates/socrates-package/socrates.js",
-		"/home/jamalex/khan/jamiealexandre/khan-exercises/css/khan-site.css",
-		"/home/jamalex/khan/jamiealexandre/stylesheets/bootstrap-package/navbar.less",
-		"/home/jamalex/khan/jamiealexandre/templates/videoplayer.html",
-		"/home/jamalex/khan/jamiealexandre/stylesheets/profile-package/profile.css"
+		"/home/jamalex/khan/jamiealexandre/javascript/video-package/modalvideo.js"
 	],
 	"find":
 	{
@@ -442,6 +475,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/home/jamalex/Dropbox/KA Lite/KA Presentation/presentation/",
 			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.*,-*.less.css,-*.handlebars.js,-*.handlebars.json",
 			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.*,-*.less.css,-*.handlebars.js",
 			"/home/jamalex/khan/jamiealexandre,-*combined.*,-hashed*.*,-*.less.css",
@@ -481,6 +515,71 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"aloha",
+			";",
+			"rotate",
+			"rotateX",
+			"rotate",
+			"internet-map",
+			"rotate",
+			"src=\"",
+			"handler1",
+			"mousemove",
+			"mouseup",
+			"500",
+			"600",
+			"current",
+			"impress:stepleave",
+			"root.addEventListener",
+			"addEventList",
+			"root",
+			":stepen",
+			":stepene",
+			"triggerEvent",
+			"impress:",
+			"0.25s",
+			"delay",
+			"rotate",
+			"internet",
+			".builder-bt",
+			".builder-ma",
+			"style.css",
+			"data(",
+			"translateY",
+			"-10px",
+			"opacity 1s",
+			"box-sizing",
+			"border-box",
+			"'func'",
+			"data('func'",
+			"func'",
+			"func\"",
+			"func",
+			"removeData",
+			".data",
+			"mouseStopCallbacks",
+			".on(",
+			"$(document).on",
+			"e.Edit",
+			"e.edit",
+			"e.Edit",
+			"editContent",
+			"/javascripts",
+			"editContents",
+			"'Edit'",
+			"style=\"\"",
+			"padding",
+			"style=\"",
+			"'",
+			" >",
+			"/>",
+			"<br/>",
+			"<img",
+			"/>",
+			"editContents",
+			"builder",
+			"tab",
+			"iAPI",
 			"index",
 			"preventDefault",
 			"builder-controls",
@@ -543,72 +642,7 @@
 			"mission",
 			"propose",
 			"vote",
-			"room",
-			"obj.leader",
-			"toggleVisibility",
-			"vote-proposal",
-			"vote-question",
-			"class",
-			"#",
-			"badpla",
-			"badplayers",
-			"start-ga",
-			".html",
-			"updateObj",
-			"visitors",
-			"visitors[",
-			"socket.session",
-			"visitors",
-			"updateObj",
-			"hash",
-			"badpeople",
-			"[",
-			":",
-			"indexOf",
-			"socket",
-			"gamestarted",
-			"rooms",
-			"6px",
-			"hangoutUrl",
-			"hash",
-			"newname",
-			"gameid",
-			"session",
-			".emit",
-			"toggleStartLink",
-			"10",
-			"6px",
-			"visitor",
-			"name",
-			"3px",
-			"div",
-			".name",
-			"session",
-			"name",
-			"games",
-			"'",
-			"href",
-			"gameid",
-			"gamecode",
-			"room",
-			"gamecode",
-			"u",
-			"key",
-			"word",
-			";",
-			"//",
-			"_",
-			"'",
-			"registerDynamic",
-			"attempt",
-			"apiEntity",
-			"exercises",
-			"apiEntity",
-			"Khan.",
-			"attempt",
-			"trackSingleEvent",
-			"Expan",
-			"Analytics."
+			"room"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -635,7 +669,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -643,15 +677,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10513,
+						"buffer_size": 5314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								530,
-								530
+								2284,
+								2284
 							]
 						],
 						"settings":
@@ -659,34 +693,34 @@
 							"buffer_scroll_name": "7889c9cf",
 							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 872.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "run.sh",
 					"settings":
 					{
-						"buffer_size": 91,
+						"buffer_size": 9,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								9,
+								9
 							]
 						],
 						"settings":
 						{
-							"buffer_scroll_name": "931be0c1",
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"auto_name": "subtitles",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -696,24 +730,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "edit.sh",
+					"file": "css/mixins.less",
 					"settings":
 					{
-						"buffer_size": 146,
+						"buffer_size": 6874,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								782,
+								782
 							]
 						],
 						"settings":
 						{
-							"buffer_scroll_name": "b39c485e",
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"buffer_scroll_name": "15e63587",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -726,21 +762,23 @@
 					"file": "css/presentation.less",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1127,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1109,
+								1109
 							]
 						],
 						"settings":
 						{
 							"buffer_scroll_name": "d0ed876c",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -750,18 +788,76 @@
 				},
 				{
 					"buffer": 4,
-					"file": "builder4impress/js/builder.js",
+					"file": "css/impress.css",
 					"settings":
 					{
-						"buffer_size": 8048,
+						"buffer_size": 12609,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9110,
+								9110
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "56671601",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "builder4impress/js/impress.js",
+					"settings":
+					{
+						"buffer_size": 32492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20938,
+								20945
+							]
+						],
+						"settings":
+						{
+							"buffer_scroll_name": "aea7242b",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "builder4impress/js/builder.js",
+					"settings":
+					{
+						"buffer_size": 9552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5612,
+								5612
 							]
 						],
 						"settings":
@@ -778,30 +874,30 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "css/impress.css",
+					"buffer": 7,
+					"file": "index-old.html",
 					"settings":
 					{
-						"buffer_size": 14251,
+						"buffer_size": 11054,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5954,
-								5954
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"buffer_scroll_name": "56671601",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"buffer_scroll_name": "4879ee0a",
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4716.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -859,12 +955,32 @@
 		"selected_items":
 		[
 			[
-				"impress-de",
-				"css/impress-demo.css"
+				"old",
+				"index-old.html"
+			],
+			[
+				"builder",
+				"builder4impress/js/builder.js"
+			],
+			[
+				"builder.css",
+				"builder4impress/css/builder.css"
+			],
+			[
+				"impress.",
+				"builder4impress/js/impress.js"
+			],
+			[
+				"index2",
+				"index2.html"
 			],
 			[
 				"present",
 				"presentation.html"
+			],
+			[
+				"impress-de",
+				"css/impress-demo.css"
 			],
 			[
 				"index",
@@ -1349,26 +1465,6 @@
 			[
 				"api.js",
 				"jamiealexandre/javascript/shared-package/api.js"
-			],
-			[
-				"backbone.",
-				"jamiealexandre/javascript/shared-package/backbone.js"
-			],
-			[
-				"template",
-				"jamiealexandre/templatetags.py"
-			],
-			[
-				"templatetags",
-				"jamiealexandre/templatetags.py"
-			],
-			[
-				"firstmee",
-				"notes/first meeting with Stephanie.txt"
-			],
-			[
-				"video-addons",
-				"jamiealexandre/clienttemplates/shared-package/video-addons.js"
 			]
 		],
 		"width": 0.0
@@ -1384,7 +1480,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 295.0,
+	"side_bar_visible": false,
+	"side_bar_width": 263.0,
 	"status_bar_visible": true
 }

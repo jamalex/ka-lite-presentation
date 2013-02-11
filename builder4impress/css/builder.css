@@ -16,7 +16,7 @@
 background-color: #333;
 border-radius: 3px;
 padding: 5px;
-margin: 5px;
+margin: 4px;
 
 text-align: center;
 cursor: pointer;
@@ -26,10 +26,10 @@ cursor: pointer;
 /* control boxes */ 
 
 .builder-main {
-  padding:5px;
+  padding:2px;
   background-color: #222;
   color: #fff;
-  width: 120px;
+  width: 32px;
   text-align: center;
   position: fixed;
   top:0;
@@ -39,8 +39,8 @@ cursor: pointer;
 .builder-main div,.builder-main a{
   display: block;
   cursor: pointer;
-  padding-left: 23px;
-  
+  padding-left: 19px;
+  height: 15px;
 }
 
 .bt-overview{
