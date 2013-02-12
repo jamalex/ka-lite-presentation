@@ -30,7 +30,7 @@
     
         window.less = {
             env: "development", // or "production"
-            poll: 500         // when in watch mode, time in ms between polls
+            poll: 1500         // when in watch mode, time in ms between polls
         };
 
         if (!edit_mode) {
@@ -68,30 +68,30 @@
         </div>
     </div>
 
-    <div id="spinning-globe" class="step" data-x="1110" data-y="1078" data-group="globe">
+    <div id="spinning-globe" class="step" data-x="1153" data-y="1103" data-group="globe">
         <div style="text-align: center; height: 100%;">
             <img src="images/earth_at_night_slow.gif" style="position: absolute; top: -10px; left: 500px;" width="700">
         </div>
     </div>
-        <div id="globe-internet" class="step" data-x="1234.4245021366708" data-y="994.6459642857681" data-rotate="89" data-group="internet" data-scale="1.2017500000000003">
+        <div id="globe-internet" class="step" data-x="1210.3772515249038" data-y="996.8315290884451" data-rotate="89" data-group="internet" data-scale="1.1777150000000003">
         <div style="text-align: center;">
             <img src="images/internet-opte.org-map-smaller.png" width="540">
         </div>
     </div>
 
-    <div id="man-in-the-net" class="step hidden" data-x="1220" data-y="991" data-rotate="89" data-scale="0.05" data-group="internet">
+    <div id="man-in-the-net" class="step hidden" data-x="1220" data-y="991" data-rotate="89" data-scale="0.03" data-group="internet">
         <div>
-            <img src="images/man-in-the-net.jpg" style="width: 1000px; margin-left: -100px; opacity: 0.75;">
+            <img src="images/man-in-the-net.jpg" style="width: 100%; margin-top: 100px; opacity: 0.75;">
         </div>
     </div>
     
     <div id="mission" class="step hidden" data-x="1498" data-y="846" data-scale="0.05">
 
-        <div class="slide" style="margin-top: -200px;">
+        <div class="slide">
             
             <img id="about-vertical-logo" src="images/khan-logo-vertical-transparent.png" style="float: left; padding: 10px 35px 50px 0; margin-left: -30px;" width="160">
 
-            <div style="text-align: center; float: left; width: 730px; margin-top: 40px;">
+            <div style="text-align: center; float: left; width: 750px; margin-top: 40px;">
 
                 <div>
                     <h2 class="main-headline" style="white-space: pre; font-size: 32px; margin-bottom: 22px; font-weight: bold;">"A free world-class education for <span class="emphasize">anyone anywhere</span>."</h2>
@@ -112,7 +112,7 @@
             <div>
                 
                 <div style="font-weight: bold; margin-top: 40px;">
-                    Amazing successes from an awesome, dedicated team at KA!
+                    Amazing successes from an awesome, dedicated team at Khan Academy!
                 </div>
 
                 <div style="padding-top: 50px;">
@@ -131,7 +131,19 @@
     <div id="globe-fringe-zoom" class="step" data-x="1642.425096745013" data-y="810.2907756741936" data-scale="0.18052499999999996" data-rotate="83" data-group="internet" data-background="black">
         <!-- TODO: insert "on the fringe" text/image here? -->                
     </div>
+    
+    <div id="internet-stats" class="step" data-y="300" data-x="1400" data-scale="0.2" data-background="white" data-group="stats">
+        <img src="images/world2011pr.png" height="100%">
+    </div>
 
+    <div id="internet-stats-correlation" class="step" data-y="150" data-x="1400" data-scale="0.05" data-group="stats">
+        <img src="images/student-teacher-ratio-vs-internet-users.png" width="100%">
+    </div>
+    
+    <div id="ka-lite-intro" class="step" data-y="0" data-x="1400" data-scale="0.05" data-group="stats">
+        <h1>Only 35% of the world has internet.</h1>
+        <h1>100% of the world needs education.</h1>
+    </div>
 
     <div id="overview" class="step" data-x="0" data-y="0" data-scale="3"></div>
 
@@ -168,8 +180,9 @@
             $group_elements.addClass("current").removeClass("later earlier");
             $(event.target).prevAll().not($group_elements).addClass("earlier").removeClass("later current");
             $(event.target).nextAll().not($group_elements).addClass("later").removeClass("earlier current");
-            if ($(event.target).data("background")) {
-                $("body").animate({backgroundColor: $(event.target).data("background")}, 1000);
+            var background = $(event.target).data("background") || "white";
+            if ($("body").css("background") != background) {
+                $("body").animate({backgroundColor: background}, 1000);
             }
         });
 
