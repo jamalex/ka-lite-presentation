@@ -394,6 +394,7 @@
             // get and init steps
             steps = $$(".step", root);
             steps.forEach( initStep );
+            steps = steps.filter(function(el) { return !el.className.match(/\bskip\b/) });
 
             // set a default initial state of the canvas
             currentState = {

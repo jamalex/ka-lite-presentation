@@ -11,8 +11,6 @@
     <link rel="shortcut icon" href="favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
-    <link href="index_files/css.css" rel="stylesheet">
-
     <link href="css/impress.css" rel="stylesheet">
     <link href="alohaeditor-0.22.6/aloha/css/aloha.css" rel="stylesheet" id="aloha-css">
 
@@ -21,6 +19,7 @@
     <link href="builder4impress/css/builder.css" rel="stylesheet" id="builder-css">
         
     <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/underscore-min.js"></script>
     
     <script src="alohaeditor-0.22.6/aloha/lib/require.js"></script>
     <script src="alohaeditor-0.22.6/aloha/lib/aloha.js" data-aloha-plugins="common/ui,common/format,common/highlighteditables,common/link"></script>
@@ -143,12 +142,28 @@
         </div>
     </div>
 
-    <div id="cloud-server-user" class="step" data-x="1000" data-y="-100" data-group="country" data-scale="0.3">
+    <div id="cloud-server-user" class="step hide" data-x="1079" data-y="-100" data-group="cloud-link" data-scale="0.3">
         <img src="images/studentuser_laptop_ka.png" style="height: 100%;">
     </div>
 
-    <div id="cloud-server" class="step" data-x="500" data-y="-444" data-group="country" data-scale="0.4">
+    <div id="cloud-server-link" class="step hide" data-x="818" data-y="-289" data-group="cloud-link" data-scale="0.7">
+        <img src="images/internet-link.png" style="height: 50%; margin-left: 350px; margin-top: 250px; z-index: -10;">
+    </div>
+
+    <div id="cloud-server" class="step skip" data-x="600" data-y="-462.89999999999964" data-group="cloud-link" data-scale="0.4">
         <img src="images/cloud_server.gif" style="height: 100%;">
+    </div>
+
+    <div id="cloud-server" class="step skip" data-x="600" data-y="-462.89999999999964" data-group="country" data-scale="0.4">
+        <img src="images/cloud_server.gif" style="height: 100%;">
+    </div>
+
+    <div id="country-school-view" class="step" data-scale="0.25" data-x="112" data-y="33" data-group="country">
+        
+    </div>
+
+    <div id="country-school-lab" class="step" data-scale="0.05" data-x="112" data-y="33" data-group="country">
+        
     </div>
 
     <div id="country-map" class="step" data-x="0" data-group="country">
@@ -159,7 +174,7 @@
         <img src="images/animated_city.gif" style="width: 100%;">
     </div>
 
-    <div id="country-waves" class="step" data-scale="0.2" data-x="-250" data-rotate="110" data-y="-60" data-group="country">
+    <div id="country-waves" class="step skip reveal" data-scale="0.2" data-x="-250" data-rotate="110" data-y="-60">
         <img src="images/medium_bandwith.gif" style="width: 100%;">
     </div>
 
@@ -167,7 +182,7 @@
         <img src="images/town.gif" style="width: 100%;">
     </div>
 
-    <div id="country-footsteps" class="step" data-scale="0.2" data-x="-65" data-y="100" data-group="country" data-rotate="21">
+    <div id="country-footsteps" class="step skip reveal" data-scale="0.2" data-x="-65" data-y="100" data-rotate="21">
         <img src="images/footsteps.gif" style="width: 100%;">
     </div>
 
