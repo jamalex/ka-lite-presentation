@@ -54,8 +54,8 @@
 
 <div id="impress" data-height="1000" data-width="1333">
 
-    <div id="internet-sign" class="step" data-x="805" data-y="1063" data-group="globe" data-scale="0.9" data-background="black">
-        <div style="text-align: center; height: 100%;">
+    <div id="internet-sign" class="step skip" data-x="805" data-y="1063" data-group="globe" data-scale="0.9" data-background="black">
+        <div style="text-align: center; height: 100%; margin-top: 100px;">
             <img src="images/fast-internet-hanging.png" style="z-index: -2;" width="700">
         </div>
     </div>
@@ -142,35 +142,59 @@
         </div>
     </div>
 
-    <div id="cloud-server-user" class="step hide" data-x="1079" data-y="-100" data-group="cloud-link" data-scale="0.3">
+    <div id="cloud-server-user" class="step hide" data-x="780.4000000000001" data-y="40.999999999999964" data-group="cloud-link" data-scale="0.3">
         <img src="images/studentuser_laptop_ka.png" style="height: 100%;">
     </div>
 
-    <div id="cloud-server-link" class="step hide" data-x="818" data-y="-289" data-group="cloud-link" data-scale="0.7">
+    <div id="cloud-server-link" class="step hide" data-x="518" data-y="-149" data-group="cloud-link" data-scale="0.7">
         <img src="images/internet-link.png" style="height: 50%; margin-left: 350px; margin-top: 250px; z-index: -10;">
     </div>
 
-    <div id="cloud-server" class="step skip" data-x="600" data-y="-462.89999999999964" data-group="cloud-link" data-scale="0.4">
+    <div id="cloud-server" class="step skip" data-x="300" data-y="-312.89999999999964" data-group="cloud-link" data-scale="0.4">
         <img src="images/cloud_server.gif" style="height: 100%;">
     </div>
 
-    <div id="cloud-server" class="step skip" data-x="600" data-y="-462.89999999999964" data-group="country" data-scale="0.4">
-        <img src="images/cloud_server.gif" style="height: 100%;">
+    <div id="country-map" class="step skip" data-x="0" data-group="country" data-z="-1">
+        <img src="images/map.svg" style="height: 100%; z-index: -100;">
+    </div>
+
+    <div id="country-school" class="step skip" data-scale="0.15" data-x="112" data-y="33" data-group="country">
+        <img src="images/school.png" style="height: 100%;">
     </div>
 
     <div id="country-school-view" class="step" data-scale="0.25" data-x="112" data-y="33" data-group="country">
         
     </div>
 
-    <div id="country-school-lab" class="step" data-scale="0.05" data-x="112" data-y="33" data-group="country">
-        
+    <div id="country-school-lab-clients" class="step hidden skip" data-scale="0.05" data-x="93" data-z="4" date-rotate-x="-70" data-y="45" data-group="lab-server">
+        <img src="images/client-device-circle.png" style="width: 100%; margin-top: -60px;">
     </div>
 
-    <div id="country-map" class="step" data-x="0" data-group="country">
-        <img src="images/map.svg" style="height: 100%; z-index: -100;">
+    <div id="country-school-lab-server" class="step hidden hide" data-scale="0.05" data-x="93" data-z="4" date-rotate-x="-70" data-y="45" data-group="lab-server">
+        <img src="images/server3.gif" style="width: 30%; margin-top: 180px; margin-left: 370px;">
+    </div>
+
+    <div id="country-school-lab-clients" class="step hidden skip" data-scale="0.05" data-x="93" data-z="4" date-rotate-x="-70" data-y="45" data-group="lab-rpi">
+        <img src="images/client-device-circle.png" style="width: 100%; margin-top: -60px;">
+    </div>
+
+    <div id="country-school-lab-rpi" class="step hidden" data-scale="0.02" data-x="93" data-z="4" date-rotate-x="-70" data-y="40" data-group="lab-rpi">
+        <img src="images/raspberrypi_antenna.gif" style="width: 75%; margin-left: 80px; margin-top: -40px;">
+    </div>
+
+    <div id="cloud-server" class="step skip" data-x="300" data-y="-312.89999999999964" data-group="country" data-scale="0.4">
+        <img src="images/cloud_server.gif" style="height: 100%;">
+    </div>
+
+    <div id="high-bandwidth" class="step skip" data-x="-27" data-y="-200" data-scale="0.3" data-group="country">
+        <img src="images/high_bandwith.svg" style="width: 100%; z-index: -100;">
+    </div>
+
+    <div id="high-bandwidth-show" class="step" data-x="-27" data-y="-300" data-scale="0.69" data-group="country">
+
     </div>
     
-    <div id="country-city" class="step" data-scale="0.25" data-x="-290" data-y="-180" data-group="country">
+    <div id="country-city" class="step skip" data-scale="0.25" data-x="-290" data-y="-180" data-group="country">
         <img src="images/animated_city.gif" style="width: 100%;">
     </div>
 
@@ -178,7 +202,11 @@
         <img src="images/medium_bandwith.gif" style="width: 100%;">
     </div>
 
-    <div id="country-town" class="step" data-scale="0.15" data-x="-250" data-y="70" data-group="country">
+    <div id="country-wave-show" class="step" data-scale="0.4" data-x="-250" data-y="-60" data-group="country">
+        
+    </div>
+
+    <div id="country-town" class="step skip" data-scale="0.15" data-x="-250" data-y="70" data-group="country">
         <img src="images/town.gif" style="width: 100%;">
     </div>
 
@@ -186,8 +214,8 @@
         <img src="images/footsteps.gif" style="width: 100%;">
     </div>
 
-    <div id="country-school" class="step" data-scale="0.15" data-x="112" data-y="33" data-group="country">
-        <img src="images/school.png" style="height: 100%;">
+    <div id="country-footstep-show" class="step" data-scale="0.3" data-x="-65" data-y="50" data-group="country">
+        
     </div>
 
     <div id="overview" class="step" data-x="600" data-y="400" data-scale="3"></div>
