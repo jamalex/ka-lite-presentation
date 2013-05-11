@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+}
+.step {
+  position: relative;
+  width: 1200px;
+  height: 900px;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'PT Serif', georgia, serif;
+  font-size: 48px;
+  line-height: 1.5;
+}
+.nopadding {
+  padding: 0;
+}
+.step {
+  opacity: 0.2;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.step.hidden {
+  opacity: 0;
+}
+.step.current,
+.step.hidden.current {
+  opacity: 1;
+}
+.center {
+  text-align: center;
+}
+/*  These 'slide' step styles were heavily inspired by HTML5 Slides:
+    http://html5slides.googlecode.com/svn/trunk/styles.css
+*/
+.slide {
+  display: block;
+  padding: 40px 60px;
+  background-color: #e5ffe5;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #666666;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+.emphasize {
+  font-weight: bold;
+  color: red;
+}
+.reveal.later {
+  opacity: 0;
+}
+.reveal.current {
+  opacity: 1;
+}
+.reveal.earlier {
+  opacity: 1;
+}
+.hide.earlier {
+  opacity: 0;
+}
+.credits-heading {
+  margin-top: 15px;
+  color: #BBF;
+}
+.credits-full {
+  color: white;
+}
+.credits-partial {
+  color: grey;
+}
