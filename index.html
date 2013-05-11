@@ -9,7 +9,6 @@
     <title>Helping to make universal education truly universal</title>
     
     <link rel="shortcut icon" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
     <link href="css/impress.css" rel="stylesheet">
     <link href="alohaeditor-0.22.6/aloha/css/aloha.css" rel="stylesheet" id="aloha-css">
@@ -72,15 +71,15 @@
         </div>
     </div>
 
-    <div id="education-revolution" class="step" data-x="643" data-y="1152" data-group="intro" data-scale="0.03" data-rotate="-4" data-background="white">
+    <div id="education-revolution" class="step nopadding" data-x="643" data-y="1152" data-group="intro" data-scale="0.03" data-rotate="-4" data-background="white">
         <img src="images/revolution-news-composite.png" style="opacity: 0.9;">
     </div>
 
-    <div id="advantages-flipping-mastery" class="step" data-x="756" data-y="1164" data-group="intro" data-scale="0.03" data-rotate="-4" data-background="white">
+    <div id="advantages-flipping-mastery" class="step nopadding" data-x="756" data-y="1164" data-group="intro" data-scale="0.03" data-rotate="-4" data-background="white">
         <img src="images/advantages-flipping-mastery.png">
     </div>
 
-    <div id="universal-mottos" class="step slide" data-x="832" data-y="1184" data-group="intro" data-scale="0.03" data-rotate="-4" data-background="black">
+    <div id="universal-mottos" class="step slide nopadding" data-x="832" data-y="1184" data-group="intro" data-scale="0.03" data-rotate="-4" data-background="black">
         <img src="images/universal-mottos.png" style="width: 100%;">
     </div>
     
@@ -204,15 +203,30 @@
         <!-- TODO: insert "on the fringe" text/image here? -->                
     </div>
     
-    <div id="internet-stats" class="step" data-y="200" data-x="1400" data-scale="0.07" data-background="white" data-group="stats">
-        <img src="images/world2011pr.png" height="100%">
+    <div id="two-thirds-without-internet" class="step hide" data-y="200" data-x="1400" data-scale="0.07" data-background="white" data-group="stats">
+        <img src="images/two-thirds-without-internet.png">
     </div>
 
-    <div id="internet-stats-correlation" class="step" data-y="100" data-x="1400" data-scale="0.05" data-group="stats">
+    <div id="internet-by-economic-group-current" class="step reveal hide" data-y="200" data-x="1400" data-scale="0.07" data-background="white">
+        <img src="images/internet-by-economic-group-current.png">
+    </div>
+
+    <!--
+     <div id="internet-by-economic-group-projected" class="step reveal" data-y="200" data-x="1400" data-scale="0.07" data-background="white">
+        <img src="images/internet-by-economic-group-projected.png">
+    </div>
+    -->
+
+    <div id="feedback-loop" class="step reveal" data-y="200" data-x="1400" data-scale="0.07" data-background="white">
+        <img src="images/feedback-loop.png">
+    </div>
+    
+    <div id="internet-stats-correlation" class="step" data-y="100" data-x="1400" data-scale="0.05">
         <img src="images/student-teacher-ratio-vs-internet-users.png" width="100%">
     </div>
     
-    <div id="ka-lite-intro" class="step" data-y="0" data-x="1400" data-scale="0.1" data-group="stats">
+    <!--
+     <div id="ka-lite-intro" class="step" data-y="0" data-x="1400" data-scale="0.1" data-group="stats">
 
         <div style="font-size: 36px; background: url(images/scale.png) no-repeat center; min-height: 600px; padding-top: 130px; margin-top: -120px;">
             <h2 style="font-weight: bold; font-size: 1.2em; text-align: center;">Bridging the Divide</h2>
@@ -228,8 +242,22 @@
         </div>
 
     </div>
+    -->
+    
+    <div id="ka-lite-overview" class="step" data-y="0" data-x="1400" data-scale="0.1" data-group="stats">
 
-    <div id="cloud-server-user" class="step hide" data-x="780.4000000000001" data-y="40.999999999999964" data-group="cloud-link" data-scale="0.3">
+        <img src="images/kalite-screenshot.png" style="width: 100%;">
+            
+        <div style="font-size: 33px; text-align: center;">
+            <br/>
+            <p>Offline web platform to serve Khan Academy's 4100+ videos, and exercises.</p>
+            <br/>
+            <p>Progress tracking, points, and coach reports. Designed to run on <i>anything</i>.</p>
+        </div>
+        
+    </div>
+    
+    <div id="cloud-server-user" class="step skip hide" data-x="780.4000000000001" data-y="40.999999999999964" data-group="cloud-link" data-scale="0.3">
         <img src="images/studentuser_laptop_ka.png" style="height: 100%;">
     </div>
 
@@ -314,9 +342,23 @@
 
     <div id="peer-to-peer-sync" class="step hidden nopadding" data-scale="0.2" data-y="500" data-x="-500">
         <img src="images/peer-to-peer-sync.png">
-    </div>    
+    </div>
 
-<!--     <div id="technical-goals-crypto" class="step hidden nopadding" data-scale="0.2" data-y="500" data-x="-500">
+    <div id="kalite-map" class="step reveal nopadding" data-scale="0.2" data-y="750" data-x="-1000">
+        <img src="images/kalite-map.png">
+    </div>
+
+    <div id="sparks-overlay" class="step hidden nopadding" data-scale="0.2" data-y="750" data-x="-1000">
+        <img src="images/sparks-overlay.png">
+    </div>
+
+<!--     <div id="syncing2" class="step hidden nopadding" data-scale="0.2" data-y="750" data-x="-1000">
+        <img src="images/mockup_2.png" style="width: 110%">
+    </div> -->
+
+    <!--
+    
+    <div id="technical-goals-crypto" class="step hidden nopadding" data-scale="0.2" data-y="500" data-x="-500">
         <img src="images/technical-goals-crypto.png">
     </div>
     
@@ -332,12 +374,12 @@
         <img src="images/mockup_2.png" style="width: 110%">
     </div>
 
- -->
+    -->
 
     <div id="offline-commons" class="step reveal nopadding hide" data-scale="0.2" data-y="2000" data-x="-500">
         <div style="font-family: helvetica; font-weight: bold; font-size: 50px; text-align: center; margin-top: 80px;">
             
-            <div>The Future of KA Lite</div>
+            <div>Why just Khan Academy content?</div>
             
             <br>
             
@@ -346,9 +388,6 @@
             <br>
             <img src="images/open-source-providers.png" style="margin-left: -30px;">
             <br>
-            <br>
-            
-            <div>What about all the "freely" available content that can't be shared offline?</div>
         </div>
     </div>
 
@@ -399,10 +438,8 @@
     </div> -->
 
     <div id="einstein" class="step hidden nopadding" data-scale="0.2" data-y="2500" data-x="-500">
-        <div style="margin-bottom: 30px; font-size: 42px;">
-            A cautionary tale, in honor of International Women's Day...
-        </div>
-        <img src="images/abstruse-goose-einstein.png" style="width: 100%;">
+
+        <img src="images/abstruse-goose-einstein.png" style="width: 100%; margin-top: 80px;">
         
         <a style="font-size: 24px; color: gray;" href="http://abstrusegoose.com/502" target="_blank">
             (&copy; Abstruse Goose)
