@@ -239,7 +239,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-26.829206"
+     inkscape:cx="430.31365"
      inkscape:cy="526.1094"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -409,5 +409,38 @@
            id="tspan3936"
            sodipodi:role="line">6%</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;font-family:Sans"
+       x="837.14282"
+       y="375.21933"
+       id="text3041"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3043"
+         x="837.14282"
+         y="375.21933">have internet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="841.20532"
+       y="707.27429"
+       id="text3041-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3043-6"
+         x="841.20532"
+         y="707.27429">have internet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="799.49109"
+       y="868.13141"
+       id="text3041-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3043-63"
+         x="799.49109"
+         y="868.13141">have internet</tspan></text>
   </g>
 </svg>

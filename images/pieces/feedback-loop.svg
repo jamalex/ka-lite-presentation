@@ -363,7 +363,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -373,7 +373,7 @@
      id="layer1"
      transform="translate(0,-152.36218)">
     <g
-       transform="matrix(0.54261715,1.0547726,-1.0547726,0.54261715,979.25593,-178.26859)"
+       transform="matrix(0.54261715,1.0547726,-1.0547726,0.54261715,977.54165,-148.26859)"
        id="layer1-0"
        inkscape:label="Layer 1"
        inkscape:transform-center-x="85.084745"
@@ -403,7 +403,7 @@
       </g>
     </g>
     <g
-       transform="matrix(-0.55046053,-1.0507007,1.0507007,-0.55046053,140.35906,1243.0351)"
+       transform="matrix(-0.55046053,-1.0507007,1.0507007,-0.55046053,184.35906,1243.0351)"
        id="layer1-0-9"
        inkscape:label="Layer 1"
        inkscape:transform-center-x="-84.911753"
@@ -435,36 +435,31 @@
     <text
        xml:space="preserve"
        style="font-size:47.44645309px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="378.77167"
+       x="422.77167"
        y="237.81366"
        id="text3431"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3433"
-         x="378.77167"
+         x="422.77167"
          y="237.81366"
-         style="font-size:75.9143219px;text-align:center;text-anchor:middle">Educational</tspan><tspan
-         sodipodi:role="line"
-         x="378.77167"
-         y="332.70657"
          id="tspan3435"
-         style="font-size:75.9143219px;text-align:center;text-anchor:middle">Access</tspan></text>
+         style="font-size:75.9143219px;text-align:center;text-anchor:middle">Lack of</tspan><tspan
+         sodipodi:role="line"
+         x="422.77167"
+         y="332.70657"
+         style="font-size:75.9143219px;text-align:center;text-anchor:middle"
+         id="tspan3046">Education</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:47.44645309px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="737.36639"
-       y="771.58643"
+       x="707.08069"
+       y="815.87213"
        id="text3437"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3439"
-         x="737.36639"
-         y="771.58643"
-         style="font-size:75.9143219px;text-align:center;text-anchor:middle">Socioeconomic</tspan><tspan
-         sodipodi:role="line"
-         x="737.36639"
-         y="866.47937"
+         x="707.08069"
+         y="815.87213"
          id="tspan3441"
-         style="font-size:75.9143219px;text-align:center;text-anchor:middle">Success</tspan></text>
+         style="font-size:75.9143219px;text-align:center;text-anchor:middle">Poverty</tspan></text>
   </g>
 </svg>
